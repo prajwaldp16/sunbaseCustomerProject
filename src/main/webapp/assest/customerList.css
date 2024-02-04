@@ -1,0 +1,144 @@
+/* assest/customerList.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 6	px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.button.edit {
+    background-color: #17a2b8;
+}
+
+.button.delete {
+    background-color: #dc3545;
+}
+
+.table-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure rounded corners don't get cut off */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    text-decoration: none;
+    color: #333;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #d6d8db;
+}
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start; /* Adjusted to move the content to the left */
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#searchCriteria,
+#searchTerm {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-btn {
+    background-color: rgb(192, 192, 192);
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+  .pagination-container {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pagination-container span,
+    .pagination-container a {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 0 4px;
+        text-decoration: none;
+        border: 1px solid #dee2e6;
+        border-radius: 4px;
+        background-color: #ffffff;
+        color: #007bff;
+        cursor: pointer;
+    }
+
+    .pagination-container span {
+        background-color: #007bff;
+        color: #ffffff;
+    }
+
+    .pagination-container a:hover {
+        background-color: #e9ecef;
+    }
+
+    .pagination-container .active {
+        background-color: #007bff;
+        color: #ffffff;
+    }
