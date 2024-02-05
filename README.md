@@ -1,7 +1,20 @@
-Customer Management System
-How to Run
-Follow these steps to set up and run the Customer Management System on your local environment:
 
+Certainly! Here's the content organized in a more structured format suitable for a GitHub README file:
+
+Customer Management System
+Table of Contents
+How to Run
+Prerequisites
+Steps
+Dependencies
+Libraries Used
+Features
+Usage
+Technologies Used
+Setup
+Contributing
+Future Enhancements
+How to Run
 Prerequisites
 Java Development Kit (JDK) installed
 A servlet container (e.g., Apache Tomcat)
@@ -37,7 +50,6 @@ Provide search criteria and term to retrieve customer information.
 Access Secured Resource:
 
 Log in with valid credentials to access the secured resource.
-
 Dependencies
 Ensure you have the following dependencies installed before running the Customer Management System:
 
@@ -75,14 +87,13 @@ Download MySQL Connector/J
 Maven Dependencies (if using Maven):
 
 Include dependencies specified in the pom.xml file.
-
-
-
 Features
-Customer Search: Utilizes Java Servlets for searching customers based on specified criteria and terms.
+Customer Search:
 
-Role-Based Access Control: Demonstrates secure resource access, allowing only authenticated users with the "USER" role to access specific servlets.
+Utilizes Java Servlets for searching customers based on specified criteria and terms.
+Role-Based Access Control:
 
+Demonstrates secure resource access, allowing only authenticated users with the "USER" role to access specific servlets.
 Usage
 Customer Search:
 
@@ -112,6 +123,3 @@ Contributions are encouraged! If you find bugs, have feature requests, or want t
 Future Enhancements
 User authentication and authorization system.
 Improved error handling and user feedback.
-
-
-
