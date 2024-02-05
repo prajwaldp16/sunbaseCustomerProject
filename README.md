@@ -1,7 +1,4 @@
-
-Certainly! Here's the content organized in a more structured format suitable for a GitHub README file:
-
-Customer Management System
+**Customer Management System**
 Table of Contents
 How to Run
 Prerequisites
